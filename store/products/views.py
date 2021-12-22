@@ -21,7 +21,6 @@ def test_contex(request):
             {'name': 'Синяя куртка The North Face', 'price': 23725.00},
             {'name': 'Коричневый спортивный oversized-топ ASOS DESIGN', 'price': 3390.00},
         ],
-        #'promotion': True,
         'products_of_promotion': [
             {'name': 'Черный рюкзак Nike Heritage', 'price': 2340.00},
         ]
