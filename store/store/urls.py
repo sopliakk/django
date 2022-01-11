@@ -20,7 +20,7 @@ from products.views import index, products, test_contex
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name=''),
+    path('', index, name='index'),
     path('products/', products, name='products'),
     path('test-context/', test_contex, name='test_context'),
 
